@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - GadgetStore</title>
+    <link rel="stylesheet" href="css/style-about.css">
+    <link rel="shortcut icon" href="images/ini-favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/ini-favicon.ico" type="image/x-icon">
+    <!-- START JAVASCRIPT JAM DIGITAL -->
+    <script>
+        window.setTimeout("waktu()", 1000);
+     
+        function waktu() {
+            var waktu = new Date();
+            setTimeout("waktu()", 1000);
+            document.getElementById("jam").innerHTML = waktu.getHours();
+            document.getElementById("menit").innerHTML = waktu.getMinutes();
+            document.getElementById("detik").innerHTML = waktu.getSeconds();
+        }
+    </script>
+    <!-- END JAVASCRIPT JAM DIGITAL -->
+</head>
+<body>
+    <!-- START HEADER -->
+    <img src="images/gbheader.jpg" alt="gambar-header" width="100%">
+    <!-- END HEADER -->
+
+    <!-- START MENU -->
+    <nav>
+        <div class="menu">
+            <a href="index.html">Home</a> |
+            <a href="#">About</a> |
+            <a href="product.html">Product</a> |
+            <a href="buku_tamu.php">Buku Tamu</a> 
+        </div>
+    </nav>
+    
+    <!-- START OUTPUT JAM DIGITAL -->
+    <div class="jam-digital">
+        <div class="kotak">
+            <p id="jam"></p>
+        </div>
+        <div class="kotak">
+            <p id="menit"></p>
+        </div>
+        <div class="kotak">
+            <p id="detik"></p>
+        </div>
+    </div>
+    <!-- END OUTPUT JAM DIGITAL -->
+    <!-- END MENU -->
+
+    <!-- START KONTEN -->
+    <h1>Tentang GadgetStore</h1>
+    <div class="gambar-konten">
+        <img src="images/gadget.png" alt="gambar-header" width="400" height="400" style="text-align: center;">
+    </div>
+    <h2>Toko Gadget Terpercaya dan Termurah</h2>
+    <h1>No. 1 di Indonesia</h1>
+    <p>
+        Bingung masih cari gadget dengan harga termurah tapi takut barang palsu? disini tempatnya,<br>anda dapat mendapatkan gadget yang anda cari dengan harga termurah dan tentunya original.<br>Mulai dari handphone, laptop dan aksesoris gadget lainnya dapat anda temukan disini,<br>tunggu apalagi yuk checkout sebelum kehabisan. 
+    </p><br><br>
+    <!-- END KONTEN -->
+
+    <!-- START FOOTER -->
+    <div class="footer">
+        <h3 style="color: white;">IKUTI KAMI DI</h3>
+        <a href="https://www.instagram.com/adehidayat._/" target="_blank"><img src="images/icon-instagram.png" alt="icon-instagram">
+        <a href="https://twitter.com/adeehidayat_" target="_blank"><img src="images/icon-twitter.png" alt="icon-instagram">
+        <a href="https://www.youtube.com/channel/UCPztnXfnNW5MSkmyG6ppg9g" target="_blank"><img src="images/icon-youtube.png" alt="icon-instagram"><br>
+        <a href="mailto:111202113294@mhs.dinus.ac.id" target="_blank" style="color: rgb(255, 196, 0);">E-mail : 111202113294@mhs.dinus.ac.id</a>
+        <footer>
+            <p style="color: white;">Copyright &copy; 2022 Septian Ade Hidayat.</p>
+        </footer>
+    </div>
+    <!-- END FOOTER -->
+</body>
+</html>

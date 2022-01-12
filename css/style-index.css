@@ -1,0 +1,54 @@
+body{
+    font-family: "poppins";
+}
+h1, h2, h3, p{
+    text-align: center;
+}
+nav{
+    background-color: white;
+    padding: 10px;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover{
+    color: rgb(255, 238, 0);
+}
+a{
+    color: black;
+}
+.menu{
+    font-size: 14pt;
+    font-weight: 500;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.jam-digital {
+    overflow: hidden;
+    width: 150px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.kotak{
+    float: left;
+    width: 50px;
+    height: 30px;
+    background-color: white;
+}
+.jam-digital p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1px;
+}
+.gambar-konten{
+    text-align: center;
+}
